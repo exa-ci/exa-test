@@ -1,7 +1,7 @@
-mkdir run
-cd run
+mkdir runner
+cd runner
 # Download exa
-wget https://cdn.xtremedevx.com/exa/exa.run -nv -o exa.run
+curl https://cdn.xtremedevx.com/exa/exa.run -o exa.run
 # Make it executable
 # chmod +x exa.run
 # Rename the file
